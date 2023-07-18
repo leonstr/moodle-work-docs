@@ -37,3 +37,6 @@ Candidate checks
 
 1. Enable and configure [X-sendfile](https://docs.moodle.org/en/Performance_recommendations#X-Sendfile) if available.
 2. Run `admin/cli/mysql_compressed_rows.php` (upgrade and migration only).
+
+------------------------------------------------------------------------------
+Text is available under the [Creative Commons Attribution-ShareAlike License 4.0](https://creativecommons.org/licenses/by-sa/4.0/)

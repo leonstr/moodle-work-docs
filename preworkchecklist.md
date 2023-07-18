@@ -18,3 +18,6 @@ Note the following items:
 9. Moodledata size, for example, with the command `du -sxh moodledata`.
 10. Database size (for example, for MySQL/MariaDB: `SELECT ROUND(SUM(data_length + index_length) / 1024 / 1024, 1) size_mb FROM information_schema.tables WHERE table_schema = 'moodledb' GROUP BY table_schema`).
 11. Which authentication plugins are enabled/configured. How many users are authenticated by non-standard ones. This is shown under **Site administration** > **Plugins** > **Authentication** > **Manage authentication**. There may be an obsolete authentication plugin enabled which would need removing for an upgrade, but we must check if there are any users authenticated by this.
+
+------------------------------------------------------------------------------
+Text is available under the [Creative Commons Attribution-ShareAlike License 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
